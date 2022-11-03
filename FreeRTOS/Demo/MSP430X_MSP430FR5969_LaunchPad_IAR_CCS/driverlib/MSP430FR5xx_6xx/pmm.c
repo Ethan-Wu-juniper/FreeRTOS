@@ -41,7 +41,7 @@
 //! @{
 //
 //*****************************************************************************
-
+#define PMMLPRST               (0x0080)       /* PMM Low-Power Reset Enable */
 #include "inc/hw_regaccess.h"
 #include "inc/hw_memmap.h"
 

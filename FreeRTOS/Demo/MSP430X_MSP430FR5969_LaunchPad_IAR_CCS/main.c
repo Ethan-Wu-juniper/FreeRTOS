@@ -50,7 +50,7 @@
 functionality in an interrupt. */
 #include "EventGroupsDemo.h"
 #include "TaskNotify.h"
-#include "ParTest.h" /* LEDs - a historic name for "Parallel Port". */
+//#include "ParTest.h" /* LEDs - a historic name for "Parallel Port". */
 
 /* TI includes. */
 #include "driverlib.h"

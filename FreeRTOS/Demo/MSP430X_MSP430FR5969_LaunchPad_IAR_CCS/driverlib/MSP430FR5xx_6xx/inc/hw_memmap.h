@@ -47,7 +47,7 @@
 #if defined(__IAR_SYSTEMS_ICC__)
 #include "../deprecated/IAR/msp430fr5xx_6xxgeneric.h"
 #elif defined(__TI_COMPILER_VERSION__)
-#include "../deprecated/CCS/msp430fr5xx_6xxgeneric.h"
+//#include "../deprecated/CCS/msp430fr5xx_6xxgeneric.h"
 #elif defined(__GNUC__)
 #include "msp430fr5xx_6xxgeneric.h"
 #else
@@ -181,10 +181,10 @@
                                                                         #define \
     DMA_BASE                __MSP430_BASEADDRESS_DMAX_3__
 #endif
-#ifdef __MSP430_HAS_DMAX_6__
-                                                                        #define \
-    DMA_BASE                __MSP430_BASEADDRESS_DMAX_6__
-#endif
+//#ifdef __MSP430_HAS_DMAX_6__
+//                                                                        #define \
+//    DMA_BASE                __MSP430_BASEADDRESS_DMAX_6__
+//#endif
 #ifdef __MSP430_HAS_EUSCI_A0__
                                                                         #define \
     EUSCI_A0_BASE           __MSP430_BASEADDRESS_EUSCI_A0__

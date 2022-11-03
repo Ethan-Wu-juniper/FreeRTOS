@@ -50,6 +50,9 @@
 
 #include <assert.h>
 
+#define OFS_CRC16DIRBW1        (0x0014)       /* CRC16 Data In Reverse */
+#define OFS_CRC16DIRBW1_L      OFS_CRC16DIRBW1
+
 void CRC32_setSeed(uint32_t seed,
                    uint8_t crcMode)
 {
